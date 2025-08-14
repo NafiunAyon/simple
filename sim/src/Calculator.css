@@ -1,3 +1,4 @@
+/* Full page centering */
 body {
   margin: 0;
   height: 100vh;
@@ -7,6 +8,7 @@ body {
   background: #111; /* Optional: nice dark background */
 }
 
+/* Calculator styles */
 .calculator {
   width: 260px;
   background: #222;
