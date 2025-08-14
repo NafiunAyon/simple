@@ -1,10 +1,20 @@
+/* Full page centering */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
+  background: #111; /* Optional: nice dark background */
+}
+
+/* Calculator styles */
 .calculator {
   width: 260px;
   background: #222;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-  margin: 50px auto;
 }
 
 .calculator-display {
